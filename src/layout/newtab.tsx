@@ -2,10 +2,11 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { BorderNode, ITabSetRenderValues, TabSetNode } from "flexlayout-react"
 import LayoutManager from "./manager"
+import star from '../assets/star.svg'
 
 function addNewTab(node: TabSetNode | BorderNode) {
   LayoutManager.getLayoutRef().current!.addTabToTabSet(node.getId(), {
-    icon: "/tabicons/star.svg",
+    icon: star,
     component: "newtab",
     name: "New Tab"
   })
