@@ -1,5 +1,7 @@
 ## Fluid Flexlayout
 
-This is a Template usage of the [FLexlayout](https://github.com/caplin/FlexLayout) libary.
+This is a Template usage of the [Flexlayout library](https://github.com/caplin/FlexLayout), featuring a modern & sleek design
 
-Feel free to use it 🙂
+See the [demo](https://heliacer.github.io/flexlayout/)
+
+Feel free to use it! 🙂
